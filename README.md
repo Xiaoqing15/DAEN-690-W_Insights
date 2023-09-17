@@ -14,8 +14,6 @@ With the implementation of a new dispatch algorithms, the Fairfax County Fire & 
 |               Visualizations               |                                          |
 |             Final Presentations            |                                          |
 
-## Group Member
-
 
 
 ## Sprint 1 Problem Definition
