@@ -15,11 +15,7 @@ With the implementation of a new dispatch algorithms, the Fairfax County Fire & 
 |             Final Presentations            |                                          |
 
 ## Group Member
-* Scrum Master -- Paola Reyes
-* Product Owner -- Diana Borda
-* Developer -- Rishika Reddy Aleti
-* Developer -- Jael Tegulwa
-* Developer -- Xiaoqing Liu
+
 
 
 ## Sprint 1 Problem Definition
