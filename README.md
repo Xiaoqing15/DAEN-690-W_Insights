@@ -57,5 +57,6 @@ To address the diverse user stories that were presented, the system incorporated
 *	MACHINE LEARNING	
 *	MODEL TRAINING	
 *	MODEL EVALUATION	
-*	MODEL VALIDATION	
-
+*	MODEL VALIDATION
+  
+The section presents a detailed analysis of ambulance service efficiency in Fairfax County, focusing on the response times and distribution of current Basic Life Support (BLS) units in relation to incident hotspots. It evaluates whether the existing 12 BLS units meet the Fairfax County Fire and Rescue Department's (FCFRD) response time benchmarks and if their placement aligns with the areas of highest demand. The analysis employs various strategies, including General Analysis, Greedy Search, and Partition Methods, to identify optimal BLS unit allocation. Additionally, it introduces a Deep Neural Network (DNN) predictive model designed to forecast response times for better ambulance deployment. The narrative is structured to assess, optimize, and predict, aiming to enhance the emergency medical services' effectiveness through data-driven strategies and machine learning insights.
