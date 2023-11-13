@@ -18,9 +18,10 @@ Phase 2: Demand Analysis
 With a solid foundation of historical and geographic data, we move into the Demand Analysis phase. Here, our primary goal is to identify areas of high demand or activity - what we refer to as "hotspots".
 
 Phase 3: Model Development
-Building on the insights gained from our data analyses, we will create predictive models.
+Building on the insights gained from our data analyses, we will create predictive models. Through Descriptive Analysis, we have dissected the data to uncover trends and patterns, allowing us to gain a deeper understanding of the factors influencing response times. This invaluable knowledge forms the bedrock upon which our predictive models will be built.
 
 Phase 4: Results and Analysis
+Coming to evaluation, our focus is on finding the optimal allocation strategy that aligns with our objective of minimizing response time. This entails a meticulous process of fine-tuning our models and assessing their performance against real-world scenarios. The approach that has a minimal response time when evaluated by the DNN model that approach is finalized and presented. 
 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/8240ce63-b8b4-4386-9365-56314dd0856c)
 
