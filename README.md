@@ -7,7 +7,21 @@ With the implementation of a new dispatch algorithms, the Fairfax County Fire & 
 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/bafe0234-2d6c-4bf5-906d-69aae66ee156)   
 
-##General Frameword
+## General Framework
+Our approach is divided into three key phases: Data Collection and Analysis, Demand Analysis, and the upcoming Model Development phase.
+
+Phase 1: Data Collection and Analysis
+The foundation of any robust solution lies in the quality and depth of our data. We start by gathering two types of crucial information: historical data and geographic data.
+Historical Data provides us with a window into the past. It allows us to identify trends, anomalies, and patterns that have emerged over time. Through techniques like statistical analysis and data visualization, we extract meaningful insights. On the other hand, by understanding the geographical distribution of our data, we can uncover insights that may not be immediately apparent. 
+
+Phase 2: Demand Analysis
+With a solid foundation of historical and geographic data, we move into the Demand Analysis phase. Here, our primary goal is to identify areas of high demand or activity - what we refer to as "hotspots".
+
+Phase 3: Model Development
+Building on the insights gained from our data analyses, we will create predictive models.
+
+Phase 4: Results and Analysis
+
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/8240ce63-b8b4-4386-9365-56314dd0856c)
 
 
