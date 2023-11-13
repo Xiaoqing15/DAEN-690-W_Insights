@@ -7,6 +7,10 @@ With the implementation of a new dispatch algorithms, the Fairfax County Fire & 
 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/bafe0234-2d6c-4bf5-906d-69aae66ee156)   
 
+##General Frameword
+![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/8240ce63-b8b4-4386-9365-56314dd0856c)
+
+
 
  ## Outline of our project
                       |                   Sprints                  |                  Status                  |         
