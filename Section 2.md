@@ -33,7 +33,7 @@ Each incident in the dataset is uniquely identified and includes initial and con
 
 The dataset ensures patient privacy by excluding specific personal information. It includes both manually entered and system-generated data, offering comprehensive insight into incident and response dynamics.
 
-## Data Quality 
+## Data Conditioning 
 1. Missing Value Handling: Key variables with missing data removed; imputation of average response times for certain variables.
 
 2. Error Rectification: Statistical analysis and machine learning used to identify and correct data inconsistencies and outliers.
@@ -41,3 +41,6 @@ The dataset ensures patient privacy by excluding specific personal information. 
 3. Data Standardization: Uniform treatment of missing values, replaced with "NA" for consistency and ease of analysis.
 
 4. Validation and Testing: Comprehensive examination to ensure accuracy and integrity of the cleaned dataset, confirming error rectification.
+
+## Data Quality
+
