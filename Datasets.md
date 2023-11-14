@@ -1,7 +1,7 @@
 # Datasets
 
 ## Data-set Overview 
-The data analyzed in this project is sourced from the Fairfax County Fire and Rescue Department. The project encompasses the exploration and analysis of two datasets structured as tabular data, as outlined in Table 1. These datasets contain a range of variables relevant to the records of the unit responses to emergency medical services calls in Fairfax County, where each row represents an incident and each column, a specific attribute related to the incident.  
+The data analyzed in this project is sourced from the Fairfax County Fire and Rescue Department. The project encompasses the exploration and analysis of two datasets structured as tabular data. These datasets contain a range of variables relevant to the records of the unit responses to emergency medical services calls in Fairfax County, where each row represents an incident and each column, a specific attribute related to the incident.  
 The data was collected directly from FCFRD covering the period from January 2021 through August 2023, derived from actual incidents recorded by the responding personnel. The dataset contains incident-related information across multiple attributes such as the identification of the incident, description of the incident, EMS categories, the time for various stages of the incident, and response time. The data was given as flat data and raw data being filtered data and unfiltered data respectively. The data raw contains 1,048,576 rows and 530,382 for data flat. From those, 73,699 and 215,012 are unique rows for raw and flat, respectively.  
 
 
