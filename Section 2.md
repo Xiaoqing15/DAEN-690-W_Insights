@@ -35,6 +35,9 @@ The dataset ensures patient privacy by excluding specific personal information. 
 
 ## Data Quality 
 1. Missing Value Handling: Key variables with missing data removed; imputation of average response times for certain variables.
+
 2. Error Rectification: Statistical analysis and machine learning used to identify and correct data inconsistencies and outliers.
-3.. Data Standardization: Uniform treatment of missing values, replaced with "NA" for consistency and ease of analysis.
+
+3. Data Standardization: Uniform treatment of missing values, replaced with "NA" for consistency and ease of analysis.
+
 4. Validation and Testing: Comprehensive examination to ensure accuracy and integrity of the cleaned dataset, confirming error rectification.
