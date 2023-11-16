@@ -11,8 +11,11 @@ The results obtained for the response time of the current 12 BLS units are shown
 
 The results of the from the average response time for the ambulances showed that just 5 of them are currently below the department benchmark, which means that 7 are above the goal of response time. The ambulances A410, A409, A431, A427, and A408 have the lowest response time between 363.57 to 384.48 seconds. While the ambulances A412, A441, A416 were identified as the units with the highest response time between 417.45 to 486.78 seconds.
 
-## Results of Optimal Allocation 
-### General Analysis
+## Comparing All 3 Allocation Approaches Visually 
+![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/8e260f06-867f-42a2-91cf-a42fd5a01ff2)
+
+## Description of the 3 Optimal Allocation 
+### 1. General Analysis
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/a66b97db-d7fa-4214-a067-476ac915c30c)
 
 In Figure above, we presented where the top 8 ambulances with the highest response time are sent the most. As a reference to understand this analysis, the attribute that represents where the incidents are sent is collected by the geographical area related with a station, which is why on the x-axis we have the label as station. Those stations (areas where they are sent the most) represented by blue are one of the current ambulances units and the orange are potential ambulances from the analysis. 
@@ -24,7 +27,7 @@ After this analysis, the potential 20 ambulances stations are the current 12 tha
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/9a67f445-2135-4dd0-a2e7-fbfd1b0d160e)
 
 
-### Greedy Search 
+### 2. Greedy Search 
 Our Greedy Search method is designed to minimize the travel distance from BLS to incidents. As the actual locations of the incidents are unavailable, we estimate the travel distance from the BLS location to the stations that first respond to the incidents. In cases where the incident occurs at a station with a BLS unit, the travel distance is assumed to be 0. Conversely, if the incident takes place near a station without a BLS unit, the travel distance is computed based on the Euclidean distance from the incident station to the nearest BLS. The following outlines the steps of the method:
 * Retrieve Coordinates for 39 Fire Stations
 A figure of the Fairfax County Fire and Rescue Department's 2021map with the 39 Fire Stations annotated is loaded into Matlab as a 2D object. Then by the built-in command “getpts”, the pixel-based 2D X-Y coordinates of the 39 stations are obtained as we click each Fire Station sequentially. Since the lower left corner of the figure is taken as the reference base of the coordinate system, the X-Y coordinates indicate the relative location of the 39 Fire Stations accordingly (refer to data in Appendix F). It is not necessary to obtain the practical locations of the Fire Stations because the relative distance between any two stations is concerned. 
@@ -53,7 +56,7 @@ In summary, the map visually represents the optimal placement of the 20 units as
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/5268739e-1f5d-4fa1-bf73-345201aad227)
 
 
-### Partition Approach
+### 3. Partition Approach
 #### Partition Method Implementation
 The Partition Method was employed to optimize the coverage and response efficiency of Basic Life Support (BLS) units across various sections of the jurisdiction. The principal aim was to ensure that BLS units were strategically placed to serve areas with high incident frequencies and longer response times effectively. The process began with initializing the data into a structured data frame. A comprehensive list of all fire stations within the county was generated, followed by the strategic grouping of these stations into distinct sections, with each section containing a cluster of stations required BLS response. The frequency of these incidents was then tallied for each station, leading to the identification of stations with the highest call volumes - the incident hotspots. The sections were then scrutinized individually, calculating the average frequency of incidents for each. For BLS allocation, the Fairfax County was divided into 10 sections to compute the cumulative incident frequency within each section. Another function quantified the existing BLS stations within these sections. The image below helps in better understnading the partitioning.
 
