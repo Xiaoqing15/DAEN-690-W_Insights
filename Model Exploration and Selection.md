@@ -8,7 +8,7 @@
 *	Greedy Search, which involves segmenting the area into smaller regions. For each of these regions, we identify the coordinates of units and their respective stations. By analyzing the distance, we can approximate the response time within each region based on the number of ambulances allocated to it.
 Subsequently, for each region, we employ the Greedy Search technique to determine precise locations for positioning the allocated responders, optimizing their placement to minimize response times effectively. 
 * Partition Method, in this, Fairfax County was divided into ten sections, each containing about four fire stations, to analyze BLS incident response times and frequencies. This analysis identified sections with above-average response times and incident rates, especially those lacking BLS stations. The next step involved pinpointing which eight sections required BLS coverage based on metrics that determined the best location for a BLS station within these sections. The remaining two sections were analyzed to evaluate the effectiveness of their current BLS allocations.
-2. Minimizing Response Time
+2. Minimizing Response Time :-
 * The second objective is managing an emergency response system to minimize the response time for emergency incidents with an optimal allocation of the units, using the limited resources available to responders. This task is particularly complex due to the inherent uncertainties in both the spatial and temporal distribution of incidents, as well as the dynamic and changing nature of urban environments. Consequently, decision algorithms must possess the adaptability to evolve with the environment they serve. 
 
 ### Evaluation of current BLS - 3 Approaches of Optimal Allocation
