@@ -1,4 +1,4 @@
-## Hi, hope you have fun reading the notes and code! -Paola
+## Hi, hope you have fun reading the notes and code! - W Inisghts
 
 
 df <- read.csv("Dataflat.csv")
