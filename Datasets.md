@@ -53,7 +53,7 @@ The dataset was sourced from the FRD's data warehouse, where they adhere to stri
 According to the data collection and data storage, each EMS incident can be treated as an atomic unit of data.
 5. Conformity:
 The dataset exhibits a high level of consistency in its contents. For instance, the Incident Number follows a consistent pattern starting with 'E,' followed by the two-digit year, three-digit Julian date, and a four-digit sequential number. Additionally, time intervals are consistently represented in seconds, timestamps adhere to the "mm/dd/yyyy hh:mm:ss" format, and incident types are uniformly abbreviated and aligned with those found in the dispatch algorithms document.
-6. Overall Quality: 
+6. Overall Quality:
 The overall quality of the flat data is generally good. However, it is essential to acknowledge certain limitations, notably the absence of data related to the locations or outcomes of the EMS incidents. These missing components could potentially impact the accuracy and depth of subsequent research findings. (This aspect will be reevaluated after conducting further research.)
 
 
