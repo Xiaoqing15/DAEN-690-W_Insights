@@ -27,7 +27,7 @@ The Fairfax County Fire & Rescue Department (FRD) sends out medical transport ve
 3. Estimate the impact to the community and the FRD of converting an additional medics to ambulances.
 4. Analyze the impact of dispatch algorithm changes on call processing and response time.
 
-## Project Objectives
+## Project Analyzed Objectives
 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/97303c76-4746-4a96-a06a-f74a8b29349d)
 
