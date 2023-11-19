@@ -43,4 +43,18 @@ The dataset ensures patient privacy by excluding specific personal information. 
 4. Validation and Testing: Comprehensive examination to ensure accuracy and integrity of the cleaned dataset, confirming error rectification.
 
 ## Data Quality
+1. Completeness: 
+Analyzing the Fairfax County FRD emergency response data (1/01/2021 to 8/31/2023), we find two types of missing values ('NA' and empty cells), with missing data often contextually relevant rather than indicative of recording errors, as seen in columns like 'UnitWithPatientDT' and 'CalcCall2FirstArrive'.
+2. Uniqueness:
+The Fairfax County FRD emergency response data (1/01/2021-8/31/2023) shows context-specific missing values, like 'NA' or empty cells, indicating varied incident scenarios rather than data errors.
+3. Accuracy:
+The dataset was sourced from the FRD's data warehouse, where they adhere to strict and standardized protocols for incident reporting, patient care documentation, and data collection. Additionally, FRD's commitment to regular and timely data updates is vital for maintaining data accuracy, particularly in dynamic sectors like emergency services. These collective practices ensure the dataset's high accuracy in this project. For privacy reasons, the locations or outcomes of the EMS incidents are not provided in this dataset.
+4. Atomicity:
+According to the data collection and data storage, each EMS incident can be treated as an atomic unit of data.
+5. Conformity:
+The dataset exhibits a high level of consistency in its contents. For instance, the Incident Number follows a consistent pattern starting with 'E,' followed by the two-digit year, three-digit Julian date, and a four-digit sequential number. Additionally, time intervals are consistently represented in seconds, timestamps adhere to the "mm/dd/yyyy hh:mm:ss" format, and incident types are uniformly abbreviated and aligned with those found in the dispatch algorithms document.
+6. Overall Quality: 
+The overall quality of the flat data is generally good. However, it is essential to acknowledge certain limitations, notably the absence of data related to the locations or outcomes of the EMS incidents. These missing components could potentially impact the accuracy and depth of subsequent research findings. (This aspect will be reevaluated after conducting further research.)
+
+
 
