@@ -65,10 +65,10 @@ The Partition Method was employed to optimize the coverage and response efficien
 
 The Partition Method also included a thorough evaluation of specific sections. This involved an assessment of current BLS station placements against the frequency of incidents, respons1e time and sections that did not have a BLS unit, guiding the strategic positioning of new BLS units.
 
-#### Results of sections above the number of avg incidents :- 
+### Results of sections above the number of avg incidents :- 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/06aa9b13-0873-40b1-b8c8-706e9c04c683)
 
-#### Results of sections above the avg response time :- 
+### Results of sections above the avg response time :- 
 ![image](https://github.com/Xiaoqing15/DAEN-690-W_Insights/assets/137991044/81eb3482-21bb-4aac-b694-aa74be75e64f)
 
 The initial iteration of the Partition Method achieved an optimal outcome by effectively identifying key sections requiring additional support based on a comprehensive analysis of incident frequencies, response times, and BLS unit availability in Fairfax County. Sections 7, 3, 5, 2, and 10 were highlighted due to their incident rates being above the average of 805.03. Sections 8, 5, 6, 4, and 10 were pinpointed because their response times exceeded the average response time of 412.78 seconds. Additionally, section 6 was identified as a critical area due to the absence of a BLS unit.
